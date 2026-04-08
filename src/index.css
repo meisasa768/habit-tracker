@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F5F0E8;
+  font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', Georgia, serif;
+  color: #2C2116;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+button:active {
+  transform: scale(0.95);
+}
